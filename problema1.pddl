@@ -22,6 +22,7 @@
     (Aberta Janela2) (Aberta Janela3) (Aberta Janela4a) (Aberta Janela4b) 
     (Aberta Janela5) (Aberta Janela6) (Acesa Luz1) (Acesa Luz2) (Acesa Luz3) 
     (Acesa Luz4) (Acesa Luz5) (Acesa Luz6) )
+    ;Janelas Fechadas, Portas Fechadas e Luzes Apagadas
     (:goal (and (Fechada Janela1a) (Fechada Janela1b) (Fechada Janela2) 
     (Fechada Janela3) (Fechada Janela4a) (Fechada Janela4b) (Fechada Janela5) 
     (Fechada Janela6) (Fechada Porta1) (Fechada Porta2) (Fechada Porta3) 
