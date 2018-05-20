@@ -1,7 +1,7 @@
 ﻿(define (domain agenteDeSeguranca)
     (:requirements :strips)
     (:predicates (Em ?loc) (Sala ?loc) (Janela ?jan) (Luz ?luz) (Porta ?por)
-                 (TemAcesso ?loc ?por ?loc) (Aberta ?jan) (Acesa ?luz) 
+                 (TemAcesso ?por ?loc ?loc) (Aberta ?jan) (Acesa ?luz) 
                  (Fechada ?jan) (Apagada ?luz) (Pertence ?jan ?loc) )
     
     (:action mover  :parameters (?por ?loc1 ?loc2)
